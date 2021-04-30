@@ -9,7 +9,7 @@ nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/chatbotnlu')
 action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 agent = Agent.load('./models/dialogue', interpreter = nlu_interpreter, action_endpoint = action_endpoint)
 
-input_channel = SlackInput('xoxb-603355980565-604320352790-opVSrEcBiBsHBa6gyn9QKRFd')
+input_channel = SlackInput('<SlackID>')
                          
 
 agent.handle_channels([input_channel], 5004, serve_forever=True)
