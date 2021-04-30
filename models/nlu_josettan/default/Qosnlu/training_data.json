@@ -1,0 +1,105 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 31,
+            "value": "ingress-access-policy",
+            "entity": "feature-type"
+          }
+        ],
+        "text": "What is   ingress-access-policy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 28,
+            "value": "egress-access-policy",
+            "entity": "feature-type"
+          }
+        ],
+        "text": "what is egress-access-policy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "configuration",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "Qos egress-policy",
+            "entity": "feature-type"
+          }
+        ],
+        "text": "What's the Qos egress-policy configuration?"
+      },
+      {
+        "intent": "configuration",
+        "entities": [
+          {
+            "start": 30,
+            "end": 51,
+            "value": "ingress-access-policy",
+            "entity": "feature-type"
+          }
+        ],
+        "text": "What's the configuration for  ingress-access-policy?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

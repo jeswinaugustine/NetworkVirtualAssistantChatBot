@@ -1,0 +1,28 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_inform configuration",
+    "intent_inform feature",
+    "intent_personal description",
+    "entity_configuration",
+    "entity_feature type",
+    "entity_confguration",
+    "slot_configuration_0",
+    "slot_feature type_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_inform_feature",
+    "prev_utter_ask_feature",
+    "prev_action_inform_configuration",
+    "prev_utter_goodbye",
+    "prev_utter_ask_configuration",
+    "prev_utter_greet",
+    "prev_utter_personal_description"
+  ]
+}

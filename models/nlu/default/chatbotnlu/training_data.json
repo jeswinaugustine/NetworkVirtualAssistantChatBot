@@ -1,0 +1,239 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thank you"
+      },
+      {
+        "intent": "inform configuration",
+        "entities": [
+          {
+            "start": 34,
+            "end": 44,
+            "value": "Trust Mode",
+            "entity": "feature type"
+          },
+          {
+            "start": 12,
+            "end": 26,
+            "value": "configuration ",
+            "entity": "configuration"
+          },
+          {
+            "start": 12,
+            "end": 26,
+            "value": "configuration ",
+            "entity": ""
+          }
+        ],
+        "text": "What is the configuration for QOS Trust Mode"
+      },
+      {
+        "intent": "inform configuration",
+        "entities": [
+          {
+            "start": 38,
+            "end": 51,
+            "value": "rate limiting",
+            "entity": "feature type"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "configuration",
+            "entity": "configuration"
+          },
+          {
+            "start": 12,
+            "end": 25,
+            "value": "configuration",
+            "entity": ""
+          }
+        ],
+        "text": "What is the configuration example for rate limiting?"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": " wfq",
+            "entity": "feature type"
+          }
+        ],
+        "text": "what is wfq?"
+      },
+      {
+        "intent": "inform configuration",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "syntax ",
+            "entity": "configuration"
+          },
+          {
+            "start": 19,
+            "end": 33,
+            "value": "qos trust mode",
+            "entity": "feature type"
+          }
+        ],
+        "text": "what is syntax for qos trust mode feature in switch?"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "schedule profile",
+            "entity": "feature type"
+          }
+        ],
+        "text": "what does schedule profile means?"
+      },
+      {
+        "intent": "inform configuration",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "queue-profile",
+            "entity": "feature type"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "command ",
+            "entity": "configuration"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "command ",
+            "entity": ""
+          }
+        ],
+        "text": "Tell me the command for queue-profile?"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "Rate Limit",
+            "entity": "feature type"
+          }
+        ],
+        "text": "About Rate Limit"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "QOS",
+            "entity": "feature type"
+          }
+        ],
+        "text": "oh Sorry, QOS ?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "qos",
+            "entity": "feature type"
+          }
+        ],
+        "text": "I wanted to learn about qos.Please help"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "qos",
+            "entity": "feature type"
+          }
+        ],
+        "text": "Planning to start with qos, for this switch.Help me out"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "qos",
+            "entity": "feature type"
+          }
+        ],
+        "text": "tell me the definition of qos"
+      },
+      {
+        "intent": "goodbye",
+        "text": "tc"
+      },
+      {
+        "intent": "personal description",
+        "text": "what is your name?"
+      },
+      {
+        "intent": "inform feature",
+        "entities": [
+          {
+            "start": 76,
+            "end": 82,
+            "value": "queues",
+            "entity": "feature type"
+          }
+        ],
+        "text": "what is the name of the qos feature which does traffic mapping to different queues?"
+      },
+      {
+        "intent": "personal description",
+        "text": "tell me about you?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

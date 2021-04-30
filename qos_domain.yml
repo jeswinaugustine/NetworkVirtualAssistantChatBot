@@ -1,0 +1,49 @@
+slots:
+  feature type:
+    type: text
+  configuration:
+    type: text
+
+
+intents:
+ - greet
+ - goodbye
+ - inform feature
+ - inform configuration
+ - personal description
+
+
+entities:
+ - feature type
+ - confguration
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_inform_feature:
+    - 'Tell me about queue profile ?'
+    - 'Give some explanation on schedule profiles?'
+  utter_inform_configuration:
+    - 'How to configure qos trust mode?'    
+  utter_personal_description:
+    - 'My name is ChatBot. I am 2 months old.My hobby is talking with people'
+  utter_ask_feature:
+    - 'What feature you wanted to know?'
+  utter_ask_configuration:
+    - 'What feature configuration you wanted to enquire about?'
+    
+    
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - action_inform_feature
+ - action_inform_configuration
+ - utter_personal_description
+ - utter_ask_feature
+ - utter_ask_configuration
+

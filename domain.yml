@@ -1,0 +1,42 @@
+%YAML 1.1
+---
+actions:
+- action_inform_feature
+- utter_ask_feature
+- action_inform_configuration
+- utter_goodbye
+- utter_ask_configuration
+- utter_greet
+- utter_personal_description
+entities:
+- configuration
+- feature type
+- confguration
+intents:
+- personal description
+- inform configuration
+- goodbye
+- greet
+- inform feature
+slots:
+  configuration:
+    type: text
+  feature type:
+    type: text
+templates:
+  utter_ask_configuration:
+  - text: What feature configuration you wanted to enquire about?
+  utter_ask_feature:
+  - text: What feature you wanted to know?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
+  utter_inform_configuration:
+  - text: How to configure qos trust mode?
+  utter_inform_feature:
+  - text: Tell me about queue profile ?
+  - text: Give some explanation on schedule profiles?
+  utter_personal_description:
+  - text: My name is ChatBot. I am 2 months old.My hobby is talking with people
